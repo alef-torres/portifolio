@@ -1,84 +1,63 @@
-Projeto: perfil.html
-Este projeto consiste em uma página de perfil pessoal utilizando HTML e CSS, com foco em semântica, organização e responsividade.
+# 🌐 Projeto: perfil.html
 
-🧱 Estrutura HTML
-Utilize as seguintes tags semânticas para estruturar seu arquivo perfil.html:
+Este projeto consiste em uma página de perfil pessoal utilizando **HTML semântico** e **CSS responsivo**.
 
-<header> — Cabeçalho com:
+---
 
-Seu nome
+## 📁 Estrutura HTML
 
-Foto
+Utilize as seguintes tags para organizar o conteúdo em `perfil.html`:
 
-(Opcional) Slogan ou frase de impacto
+### ✅ Tags obrigatórias
 
-<nav> — Menu de navegação interna com âncoras para seções da página.
+- `<header>` — Cabeçalho com:
+  - Seu **nome**
+  - **Foto**
+  - (Opcional) **Slogan**
+- `<nav>` — Menu de navegação com **âncoras internas** para as seções da página.
+- `<main>` — Contêiner do conteúdo principal.
+- `<section>` — Blocos temáticos, como:
+  - Sobre mim
+  - Habilidades
+  - Projetos
+  - Contato
+- `<article>` — Para publicações, textos ou **depoimentos**, se houver.
+- `<aside>` — Informações **complementares**:
+  - Redes sociais
+  - Links externos
+- `<footer>` — Rodapé com:
+  - Direitos autorais
+  - Créditos
 
-<main> — Container principal do conteúdo da página.
+---
 
-<section> — Divisão por blocos temáticos, como:
+## 🎨 Estilo com CSS
 
-Sobre mim
+### 🎯 Seletores
 
-Habilidades
+- **Por elemento:**  
+  `h1`, `p`, `section` { ... }
 
-Projetos
+- **Por classe:**  
+  `.minha-classe { ... }`
 
-Contato
+- **Por ID:**  
+  `#meu-id { ... }`
 
-<article> — Para posts, textos ou depoimentos, se houver.
+---
 
-<aside> — Informações complementares, como:
+### 🧩 Layout
 
-Links externos
+- Use **Flexbox** e/ou **CSS Grid** para criar colunas e grades.
+- Inclua um **reset CSS** ou **normalize.css** para garantir consistência entre navegadores.
 
-Redes sociais
+---
 
-<footer> — Rodapé com:
+### ⚙️ Recursos avançados
 
-Direitos autorais
-
-Créditos
-
-🎨 Estilização com CSS
-🔎 Seletores
-Por elemento:
-h1, p, section, etc.
-
-Por classe:
-.minha-classe { ... }
-
-Por ID:
-#meu-id { ... }
-
-📐 Layout
-Utilize Flexbox e/ou CSS Grid para estruturar colunas e grades.
-
-Inclua um reset CSS ou normalize.css para garantir consistência entre navegadores.
-
-⚙️ Recursos Avançados
-Variáveis CSS
-Exemplo:
-
-css
-Copiar
-Editar
-:root {
-  --cor-primaria: #0077cc;
-}
-Pseudo-classes
-Exemplo:
-a:hover, button:focus, etc.
-
-Pseudo-elementos
-Exemplo:
-section::before, article::after, etc.
-
-📱 Responsividade
-Utilize media queries para adaptar o layout a diferentes tamanhos de tela.
-
-Certifique-se de que imagens e textos se ajustem corretamente em telas menores.
-
-🚀 Entrega
-📅 Data limite: [Inserir data de entrega aqui]
-📂 Envie o link do seu repositório público no GitHub contendo o projeto finalizado.
+- **Variáveis CSS**  
+  Exemplo:
+  ```css
+  :root {
+    --cor-primaria: #0077cc;
+  }
