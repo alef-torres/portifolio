@@ -2,6 +2,10 @@
 
 Este projeto consiste em uma página de perfil pessoal utilizando **HTML semântico** e **CSS responsivo**.
 
+## 🔗 Acesse o projeto
+
+👉 [Clique aqui para abrir a aplicação](https://alef-torres.github.io/portifolio/)
+
 ---
 
 ## 📁 Estrutura HTML
