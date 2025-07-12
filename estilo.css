@@ -260,11 +260,10 @@ body {
 }
 
 .projetos-conteudo-escrito:hover p,
-.projetos-conteudo-escrito:hover span {
+.projetos-conteudo-escrito:hover span,
+.projetos-conteudo-escrito:hover a {
   color: var(--cinza-medio-escuro);
 }
-
-
 
 /* =========================
    Rodapé
