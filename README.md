@@ -6,8 +6,6 @@ Este projeto consiste em uma página de perfil pessoal utilizando **HTML semânt
 
 ## 📁 Estrutura HTML
 
-Utilize as seguintes tags para organizar o conteúdo em `perfil.html`:
-
 ### ✅ Tags obrigatórias
 
 - `<header>` — Cabeçalho com:
@@ -40,16 +38,13 @@ Utilize as seguintes tags para organizar o conteúdo em `perfil.html`:
 
 - **Por classe:**  
   `.minha-classe { ... }`
-
-- **Por ID:**  
-  `#meu-id { ... }`
-
+  
 ---
 
 ### 🧩 Layout
 
-- Use **Flexbox** e/ou **CSS Grid** para criar colunas e grades.
-- Inclua um **reset CSS** ou **normalize.css** para garantir consistência entre navegadores.
+- **Flexbox** e/ou **CSS Grid** para criar colunas e grades.
+- **reset CSS** ou **normalize.css** para garantir consistência entre navegadores.
 
 ---
 
